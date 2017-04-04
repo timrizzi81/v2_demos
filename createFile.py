@@ -1,5 +1,8 @@
 import os
 
+print(os.environ['github_user'])
+print(os.environ['github_token'])
+
 file = open("report.md","w")
 file.write("# Sample Report 2")
 file.close()
