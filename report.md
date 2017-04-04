@@ -1,1 +1,1 @@
-# Sample Report 4
+# Sample Report 5![platform image](https://raw.githubusercontent.com/timrizzi81/v2_demos/master/Platform%20Visual.png)
