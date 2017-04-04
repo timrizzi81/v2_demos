@@ -7,7 +7,7 @@ file = open("report.md","w")
 file.write("# Sample Report 2")
 file.close()
 
-print("test")
+print("test 2")
 
 os.system("git add .")
 os.system("git commit -m 'Automated git commit from run'")
