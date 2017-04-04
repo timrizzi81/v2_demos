@@ -11,12 +11,12 @@ This post examines the population of users who do not use WeMo's scheduling feat
 * Devices in bedrooms are the most likely to be manually actuated on 24-hour cycles.
 * Of devices plugged in to Switches, coffee makers are the most likely to be manually actuated on 24-hour cycles.
 
-![Data Visualization](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwiSwoWu0ovTAhXB34MKHUuvAI8QjRwIBw&url=https%3A%2F%2Fwww.promptcloud.com%2Fblog%2F6-big-data-visualization-tools-for-you&psig=AFQjCNHibyLip3Ymq_UFvsofj3E0O5frAw&ust=1491424223951858)
+![Data Visualization](http://zdnet2.cbsistatic.com/hub/i/r/2014/10/05/c48cb14d-4c89-11e4-b6a0-d4ae52e95e57/resize/770xauto/4ded3e72ec11720124c9ad735f9c4efe/internet-splat-map-flickr-jurvetson-orig-v1.gif)
 
 ### Limitations
 In this post, we do not consider a user's full actuation history; rather we take the last 2 weeks of their actuation data such that our findings reflect users' most recent habits. Manual actuations are examined based on hourly counts.
 
-![Data Visualization](https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwie7ve70ovTAhXLz4MKHW_jCFoQjRwIBw&url=http%3A%2F%2Fnupps.olpa.com.br%2Fdata%2F&psig=AFQjCNHibyLip3Ymq_UFvsofj3E0O5frAw&ust=1491424223951858)
+![Data Visualization](http://www.keywebmetrics.com/wp-content/uploads/2013/07/flickrgeotags.jpg)
 
 
 ### Identifying Common Actuation Schedules
