@@ -1,1 +1,1 @@
-## The DataScience Cloud <br>![Platform Visual](https://raw.githubusercontent.com/timrizzi81/v2_demos/master/Platform%20Visual.png)
+![Platform Visual](https://raw.githubusercontent.com/timrizzi81/v2_demos/master/Platform%20Visual.png)
