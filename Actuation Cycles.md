@@ -1,4 +1,5 @@
 
+Tim Rizzi Update
 This post seeks to answer the following question:
 >Can we identify users who are likely candidates for time rules?
 
