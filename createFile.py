@@ -5,6 +5,8 @@ file.write("# Sample Report 6")
 file.write("![platform image](https://raw.githubusercontent.com/timrizzi81/v2_demos/master/Platform%20Visual.png)")
 file.close()
 
+print(os.environ)
+
 os.system('git config --global user.email "' + os.environ['GIT_EMAIL'] + '"')
 os.system('git config --global user.name "'+ os.environ['GIT_USERNAME'] +'"')
 
