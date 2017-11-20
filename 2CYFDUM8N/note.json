@@ -1,0 +1,145 @@
+{
+  "paragraphs": [
+    {
+      "text": "print(\"tim rizzi\")\n",
+      "user": "anonymous",
+      "dateUpdated": "Nov 20, 2017 6:14:32 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "tim rizzi\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1511201561212_-1865394555",
+      "id": "20171120-181241_1719966860",
+      "dateCreated": "Nov 20, 2017 6:12:41 PM",
+      "dateStarted": "Nov 20, 2017 6:14:32 PM",
+      "dateFinished": "Nov 20, 2017 6:14:35 PM",
+      "status": "FINISHED",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "#!/usr/bin/env python3\n# -*- coding: utf-8 -*-\n\"\"\"\nCreated on Fri Oct 27 14:04:38 2017\n\n@author: timrizzi\n\"\"\"\n\nnum_guesses \u003d 1\nlow \u003d 0\nhigh \u003d 100\nguess \u003d int(high + low) / 2\nchecklist \u003d [\u0027c\u0027, \u0027h\u0027, \u0027l\u0027]\n\nprint (\"Please think of a number between 0 and 100!\")\nprint (\"Is your secret number: \", int(guess))\naccuracy \u003d input (\"Enter \u0027h\u0027 to indicate the guess is too high. Enter \u0027l\u0027 to indicate the guess is too low. Enter \u0027c\u0027 to indicate I guessed correctly.\")\n\nwhile accuracy !\u003d \u0027c\u0027:\n    if accuracy \u003d\u003d \u0027h\u0027: \n        high \u003d int(guess)\n        guess \u003d int((high + low) / 2.0)\n        print (\"Is your secret number: \", int(guess))\n        accuracy \u003d input (\"Enter \u0027h\u0027 to indicate the guess is too high. Enter \u0027l\u0027 to indicate the guess is too low. Enter \u0027c\u0027 to indicate I guessed correctly.\")\n        num_guesses +\u003d 1\n    if accuracy \u003d\u003d \u0027l\u0027: \n        low \u003d int(guess)\n        guess \u003d int((high + low) / 2.0)\n        print (\"Is your secret number: \", int(guess))\n        accuracy \u003d input (\"Enter \u0027h\u0027 to indicate the guess is too high. Enter \u0027l\u0027 to indicate the guess is too low. Enter \u0027c\u0027 to indicate I guessed correctly.\")\n        num_guesses +\u003d 1\n    if accuracy not in checklist:\n        print (\"Sorry, I did not understand your input.\")\n        print (\"Is your secret number: \", int(guess))\n        accuracy \u003d input (\"Enter \u0027h\u0027 to indicate the guess is too high. Enter \u0027l\u0027 to indicate the guess is too low. Enter \u0027c\u0027 to indicate I guessed correctly.\")\n    if accuracy \u003d\u003d \u0027c\u0027: \n        print (\"game over, I guessed it in \", num_guesses, \": attempts\")\n\n\n    \n    \n    \n    \n    \n    \n    \n    \n\n",
+      "user": "anonymous",
+      "dateUpdated": "Nov 20, 2017 6:16:38 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {
+          "0": {
+            "graph": {
+              "mode": "table",
+              "height": 98.4961,
+              "optionOpen": false
+            }
+          }
+        },
+        "editorSetting": {}
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "ERROR",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Please think of a number between 0 and 100!\nIs your secret number:  50\nEnter \u0027h\u0027 to indicate the guess is too high. Enter \u0027l\u0027 to indicate the guess is too low. Enter \u0027c\u0027 to indicate I guessed correctly."
+          },
+          {
+            "type": "TEXT",
+            "data": "Traceback (most recent call last):\n  File \"/tmp/zeppelin_python-2341434856539792842.py\", line 271, in \u003cmodule\u003e\n    exec(code, _zcUserQueryNameSpace)\n  File \"\u003cstdin\u003e\", line 12, in \u003cmodule\u003e\n  File \"/tmp/zeppelin_python-2341434856539792842.py\", line 190, in handler_stop_signals\n    sys.exit(\"Got signal : \" + str(sig))\nSystemExit: Got signal : 2\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/tmp/zeppelin_python-2341434856539792842.py\", line 283, in \u003cmodule\u003e\n    raise Exception(traceback.format_exc())\nException: Traceback (most recent call last):\n  File \"/tmp/zeppelin_python-2341434856539792842.py\", line 271, in \u003cmodule\u003e\n    exec(code, _zcUserQueryNameSpace)\n  File \"\u003cstdin\u003e\", line 12, in \u003cmodule\u003e\n  File \"/tmp/zeppelin_python-2341434856539792842.py\", line 190, in handler_stop_signals\n    sys.exit(\"Got signal : \" + str(sig))\nSystemExit: Got signal : 2\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1511201672158_1913425252",
+      "id": "20171120-181432_1928423556",
+      "dateCreated": "Nov 20, 2017 6:14:32 PM",
+      "dateStarted": "Nov 20, 2017 6:15:38 PM",
+      "dateFinished": "Nov 20, 2017 6:17:00 PM",
+      "status": "ERROR",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "text": "n",
+      "user": "anonymous",
+      "dateUpdated": "Nov 20, 2017 6:16:52 PM",
+      "config": {
+        "colWidth": 12.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "python",
+          "editOnDblClick": false
+        },
+        "editorMode": "ace/mode/python"
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "ERROR",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "Traceback (most recent call last):\n  File \"/tmp/zeppelin_python-2341434856539792842.py\", line 276, in \u003cmodule\u003e\n    exec(code, _zcUserQueryNameSpace)\n  File \"\u003cstdin\u003e\", line 1, in \u003cmodule\u003e\nNameError: name \u0027n\u0027 is not defined\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/tmp/zeppelin_python-2341434856539792842.py\", line 283, in \u003cmodule\u003e\n    raise Exception(traceback.format_exc())\nException: Traceback (most recent call last):\n  File \"/tmp/zeppelin_python-2341434856539792842.py\", line 276, in \u003cmodule\u003e\n    exec(code, _zcUserQueryNameSpace)\n  File \"\u003cstdin\u003e\", line 1, in \u003cmodule\u003e\nNameError: name \u0027n\u0027 is not defined\n\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1511201738062_1250361691",
+      "id": "20171120-181538_1437635491",
+      "dateCreated": "Nov 20, 2017 6:15:38 PM",
+      "dateStarted": "Nov 20, 2017 6:16:53 PM",
+      "dateFinished": "Nov 20, 2017 6:17:00 PM",
+      "status": "ERROR",
+      "progressUpdateIntervalMs": 500
+    },
+    {
+      "user": "anonymous",
+      "config": {},
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "apps": [],
+      "jobName": "paragraph_1511201812989_-1232514907",
+      "id": "20171120-181652_1610520226",
+      "dateCreated": "Nov 20, 2017 6:16:52 PM",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  ],
+  "name": "/TimZep/Test",
+  "id": "2CYFDUM8N",
+  "angularObjects": {
+    "2CXG3CXEM:shared_process": [],
+    "2CVRPQ5G3:shared_process": [],
+    "2CV12SB71:shared_process": [],
+    "2CWE4V2WA:shared_process": [],
+    "2CVYCC6H6:shared_process": []
+  },
+  "config": {},
+  "info": {}
+}
